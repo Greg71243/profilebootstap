@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    
+    <title>My Profile</title>
+  </head>
+  <body class="text-center text-white bg-dark">
+    
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="mb-auto">
+        <div>
+          <h3 class="float-md-start mb-0">Kunagorn</h3>
+          <nav class="nav nav-masthead justify-content-center float-md-end">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="abilities.html">Abilities</a>
+            <a class="nav-link" href="projects.html">Projects</a>
+          </nav>
+        </div>
+      </header>
+    </div>
+
+    <style>
+      .carousel-item{
+        height: 36rem;
+        background: #777;
+        color: white;
+        position: relative;
+        background-position: center;
+        background-size: cover;
+      }
+    </style>
+    
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="background-image: url(./profile2.jpg);">
+  
+          <div class="container">
+            <div class="carousel-caption text-start">
+
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image: url(./profile.jpg);">
+  
+          <div class="container">
+            <div class="carousel-caption">
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <h1 class="display-1 text-warning"><b>About Me</b></h1>
+    <p class="container">Hi My name's Mos. I'm studying at Bangkok University. Currently studying in the 2nd year.
+      In my free time I like to watch movies and when I'm alone I like to listen to music that makes me feel comfortable.
+      I like to find new things to do.I don't like waiting for something too long is not worth the wait.
+      Finally, I have a belief that people who are determined to succeed one day.</p>
+    <p>
+      <a href="https://www.facebook.com/kunagorn.rodgerd.5/" class="fa fa-facebook-square" style="font-size: 40px; color: rgb(76, 150, 247);"></a>
+      <a href="https://www.instagram.com/imknrd/" class="fa fa-instagram" style="font-size: 40px; color: rgb(228, 76, 76);"></a>
+    </p>
+    <hr class="three">
+      <footer class="mt-auto text-white-50">
+        <p>Kunagorn's Profile @2021</p>
+      </footer>
+    <script src="js/bootstrap.min.js"></script>
+</html>
